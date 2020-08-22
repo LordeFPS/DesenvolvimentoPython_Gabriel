@@ -8,5 +8,5 @@ print(numero1+numero2)
 total = numero1 + numero2
 print(total)
 if True:
-    print("munero")
+    print("numero")
     
