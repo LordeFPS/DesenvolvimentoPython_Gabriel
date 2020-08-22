@@ -39,32 +39,57 @@ lista = [[1, 'Raimundo', 40, 'f', 'pacheco_k81@hotmail.com', '033901987190'], [2
 
 # Seperarndo masculino e feminino maiores de 18 anos. Contar quantos resultados
 
-contadorM = 0
-contadorF = 0
+# contadorM = 0
+# contadorF = 0
+
+# for pessoa in lista:
+#     if pessoa[2] >= 18 and pessoa[3] == 'f':
+    
+#         print(pessoa)
+#         print(f'''
+#         Nome: {pessoa[1]}
+#         Idade: {pessoa[2]}
+#         Sexo: {pessoa[3]}
+#         '''
+#         ) 
+#         contadorF = contadorF + 1
+    
+#     elif pessoa[2] >= 18 and pessoa[3] == 'm':
+       
+#         print(pessoa)
+#         print(f'''
+#         Nome: {pessoa[1]}
+#         Idade: {pessoa[2]}
+#         Sexo: {pessoa[3]}
+#         '''
+#         )
+#         contadorM = contadorM + 1
+    
+
+# print(f"Total de Mulheres: {contadorF}")
+# print(f"Total de Homens: {contadorM}")
+
+
+# jeito do professor mostrando modo alternativo
+homi = []
+dama = []
+con_f = 0
+con_m = 0
 
 for pessoa in lista:
-    if pessoa[2] >= 18 and pessoa[3] == 'f':
-    
-        print(pessoa)
-        # print(f'''
-        # Nome: {pessoa[1]}
-        # Idade: {pessoa[2]}
-        # Sexo: {pessoa[3]}
-        # '''
-        # ) 
-        contadorF = contadorF + 1
-    
-    elif pessoa[2] >= 18 and pessoa[3] == 'm':
-       
-        print(pessoa)
-        # print(f'''
-        # Nome: {pessoa[1]}
-        # Idade: {pessoa[2]}
-        # Sexo: {pessoa[3]}
-        # '''
-        # )
-        contadorM = contadorM + 1
-    
+    if pessoa[2] >= 18 and pessoa[3] == 'm':
+        con_m = con_m + 1
+        homi.append(pessoa)
+    elif pessoa[2] >= 18 and pessoa[3] == 'f':
+        con_f = con_f + 1
+        dama.append(pessoa)
 
-print(f"Total de Mulheres: {contadorF}")
-print(f"Total de Homens: {contadorM}")
+# mostrando dados
+for i in homi:
+    print(i)
+print("\n")
+for i in dama:
+    print(i)
+
+print(f"Total de homens: {con_m}")
+print(f"Total de mulheres: {con_f}")
