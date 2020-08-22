@@ -13,4 +13,4 @@ for i in range(4):
     cont = cont + 1
     media = nota_soma / cont
 
-print(f"Nome do aluno: {aluno}\nMedia: {media}")
+print(f"Nome do aluno: {aluno}\nMedia: {media:.2f}") #2f deixa apenas 2 numero depois da vírgula
