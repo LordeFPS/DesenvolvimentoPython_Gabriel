@@ -18,24 +18,26 @@ telefode_cliente = input("Telefone: ")
 
 saida_sim = 'S'
 saida_nao = 'N'
-
+    
 while True:
-    saida = input("Desenha continuar(S/N): ").upper
+    
+
+    print('''
+    ------- STATUS -------
+    -- (1) - Dados      --
+    -- (2) - Endereço   --
+    -- (3) - Contato    --
+    -- (4) - Sair       --
+    ----------------------
+    '''
+    )
+
+    opcao = input("Digite uma opção: ")
+    
+    saida = input("Desenha continuar(S/N): ").upper()
     if saida == saida_sim:
     # print("Press ENTER!")
     # input()
-    
-        print('''
-        ------- STATUS -------
-        -- (1) - Dados      --
-        -- (2) - Endereço   --
-        -- (3) - Contato    --
-        -- (4) - Sair       --
-        ----------------------
-        '''
-        )
-
-        opcao = input("Digite uma opção: ")
 
         if opcao == '1':
             print(f"""
