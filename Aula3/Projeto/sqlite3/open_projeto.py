@@ -8,4 +8,7 @@ arquivo = open(r"C:\Users\69146\Desktop\Desenvolvimento Agil Python\Desenvolvime
 
 
 for pessoa in arquivo:
-    print(pessoa)
+    pessoa = pessoa.replace('","','";"') # substitui as virgulas por ponto e virgula 
+    pessoa = pessoa.replace('"','')
+    print(pessoa.split(";")) # ele ve onde tem ponto e virgula entao quebra essa tring para virar uma lista
+

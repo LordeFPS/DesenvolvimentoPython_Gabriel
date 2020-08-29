@@ -1,6 +1,6 @@
 
 import sqlite3
-conexao = sqlite3.connect(r"C:\Users\abioluz.behrend\Desktop\Aula Python\Desenvolvimento_Agil_em_Python_2_2020\aula3\sqlite3\pesquisa2.db") #Cria o banco de dados
+conexao = sqlite3.connect(r"C:\Users\69146\Desktop\Desenvolvimento Agil Python\DesenvolvimentoPython_Gabriel_2020\Aula3\Projeto\sqlite3\pesquisa.db") #Cria o banco de dados
 cursor = conexao.cursor() # Cria um cursor
 
 cliente = """CREATE TABLE Clientes (
