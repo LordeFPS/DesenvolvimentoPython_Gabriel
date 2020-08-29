@@ -6,7 +6,7 @@ valor = int(input("Digite um numero: "))
 
 if (valor % 2) == 0:
 
-    print("Numero par")
+    print(f"Numero {valor} é par")
 
 else: 
-    print("Numero impar")
+    print(f"Numero {valor} é impar")
