@@ -1,6 +1,12 @@
 # calcular a circunferencia e a area de um circulo
 
-import 
+import calculo_circulo
+
+
+# calculo_circulo.fprg_area()
+
+# calculo_circulo.fprg_circunferencia()
+
 
 print('''
 Calculo de um Circulo
@@ -9,9 +15,19 @@ Calculo de um Circulo
 
 vprg_raio = int(input('Digite o valor do raio: '))
 
-print(f''' 
-Valor da Area: {fprg_area(vprg_raio)}m²
+vprg_circunferencia = calculo_circulo.fprg_circunferencia(vprg_raio)
+vprg_area = calculo_circulo.fprg_area(vprg_raio)
 
-Valor da Circunferencia: {fprg_circunferencia(vprg_raio)}m
+# print(f''' 
+# Valor da Area: {calculo_circulo.fprg_area(vprg_raio)}m²
+
+# Valor da Circunferencia: {calculo_circulo.fprg_circunferencia(vprg_raio)}m
+# '''
+# )
+
+print(f''' 
+Valor da Area: {vprg_area}m²
+
+Valor da Circunferencia: {vprg_circunferencia}m
 '''
 )
