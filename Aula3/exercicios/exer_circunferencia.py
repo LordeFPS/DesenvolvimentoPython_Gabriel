@@ -25,6 +25,7 @@ vprg_area = calculo_circulo.fprg_area(vprg_raio)
 # '''
 # )
 
+# Desse jeito fica melhor esteticamente ↓↓↓↓
 print(f''' 
 Valor da Area: {vprg_area}m²
 
