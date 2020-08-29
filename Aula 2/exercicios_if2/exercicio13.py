@@ -28,7 +28,7 @@ def t_limpa():
     saida = input("Desenha continuar(S/N): ").upper() # faz uma pergunta se a pessoa qr continuar
 
     if saida == saida_sim:
-        time.sleep(1) # da um tempo de 2 segundo na tela
+        time.sleep(1) # da um tempo de 1 segundo na tela
 
         os.system('cls' if os.name == 'nt' else 'clear')
     
