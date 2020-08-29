@@ -12,7 +12,7 @@ import time # importa opções de tempo
 
 import os # importa opção de limpar
 
-def t_limpa():
+def t_limpa(): # faz uma função ou procedimento
 
     time.sleep(2) # da um tempo de 2 segundos para proceguir o code
 
