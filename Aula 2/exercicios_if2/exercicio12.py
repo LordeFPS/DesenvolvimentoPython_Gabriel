@@ -8,11 +8,20 @@
 # Peça para o usuário escolher uma destas opções e mostre o resultado da operação escolhida.
 
 
+import time # importa opções de tempo
+
+import os # importa opção de limpar
+
+def t_limpa():
+
+    time.sleep(2) # da um tempo de 2 segundos para proceguir o code
+
+    os.system('cls' if os.name == 'nt' else 'clear') # esse código limpa a tela
+
 
 
 while True:
-    print("Pressione ENTER!")
-    input()
+    
     print('''
     ---- Selecione uma opção ----
     ----------- Menu ------------
@@ -62,6 +71,8 @@ while True:
          
          print("Sair do programa!")
          break
+    
+    t_limpa()
 
 
     
