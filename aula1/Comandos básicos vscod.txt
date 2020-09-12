@@ -1,4 +1,0 @@
-Alt + ↑ / ↓           Mover linha para cima / baixo
-Ctrl + K Ctrl + C     Adicionar comentário de linha
-Ctrl + K Ctrl + U     Remover comentário de linha
-Ctrl + D              Adicionar seleção ao próximo Encontrar jogo
