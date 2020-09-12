@@ -1,11 +1,11 @@
 def salvar(texto): 
     # função para salvar o texto
-    arquivo = open("Aula 04/nomes.txt","a")
+    arquivo = open("Aula 4/nomes.txt","a")
     arquivo.write(texto)
     arquivo.close()
 
 def abrir(): 
-    arquivo = open("Aula 04/nomes.txt","r")
+    arquivo = open("Aula 4/nomes.txt","r")
     for i in arquivo:
         print(i)
 

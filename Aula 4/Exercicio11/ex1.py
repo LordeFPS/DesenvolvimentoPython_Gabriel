@@ -1,16 +1,18 @@
 # 1) Crie uma função que receba 3 notas por parâmetro e 
 # retorne a média.
 
-soma = 0
-media = 0
+def fprg_media(p_media):
+    vloc_soma = 0
+    vloc_media = 0
 
-for i in range (3):
-    nota = input(f"Digite {i+1}ª nota: ")
-    soma = soma + 1
-    media = (nota + media) / soma
+    for i in range(p_media):
+        vloc_nota = int(input(f"Digite {i + 1}ª nota: "))
+        vloc_soma = vloc_soma + 1
+        vloc_media = (vloc_media + vloc_nota)
+    
+    return print(f"Média: {vloc_media / vloc_soma}")
 
-print(nota)
 
+vprg_qtd_nota = int(input("Digite quantas notas quer inserir: "))
 
-# for i in range(10):
-#     print("Ola mundo")
+fprg_media(vprg_qtd_nota)
