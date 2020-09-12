@@ -45,7 +45,12 @@ def fprg_lista(p_lista):
 # 3) Crie 4 funções para as operações matemáticas (+, -, /, *)
 
 def fprg_soma(p_valor1 , p_valor2):
+    ''' 
+    TEXTO
+    '''
+
     vloc_soma = p_valor1 + p_valor2
+
 
     return print(f"Soma entre {p_valor1} e {p_valor2} é: {vloc_soma}")
 

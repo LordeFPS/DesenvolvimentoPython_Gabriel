@@ -40,37 +40,38 @@
 # deseja fazer, peça que digite 2 números e mostre o resultado.
 # (Use as funções importadas) 
 
-from funcao_ex12 import fprg_soma
-from funcao_ex12 import fprg_subtrai
-from funcao_ex12 import fprg_multiplica
-from funcao_ex12 import fprg_divisao
-from funcao_ex12 import pprg_tlimpa
-from funcao_ex12 import pprg_menu
+# from funcao_ex12 import fprg_soma
+# from funcao_ex12 import fprg_subtrai
+# from funcao_ex12 import fprg_multiplica
+# from funcao_ex12 import fprg_divisao
+# from funcao_ex12 import pprg_tlimpa
+# from funcao_ex12 import pprg_menu
 
-while True:
+# while True:
     
-    pprg_menu()
-    vprg_menu = input("Escolha uma opção: ")
+#     pprg_menu()
+#     vprg_menu = input("Escolha uma opção: ")
 
-    if vprg_menu >= '1' and vprg_menu <= '4' :
-        vprg_valor1 = int(input("Digite 1º valor: "))
-        vprg_valor2 = int(input("Digite 2º valor: "))
-    # elif vprg_menu <= '4':
-    #     vprg_valor1 = input("Digite 1º valor: ")
-    #     vprg_valor2 = input("Digite 2º valor: ")
+#     if vprg_menu >= '1' and vprg_menu <= '4' :
+#         vprg_valor1 = int(input("Digite 1º valor: "))
+#         vprg_valor2 = int(input("Digite 2º valor: "))
+#     # elif vprg_menu <= '4':
+#     #     vprg_valor1 = input("Digite 1º valor: ")
+#     #     vprg_valor2 = input("Digite 2º valor: ")
 
-    if vprg_menu == '1':
-        fprg_soma(vprg_valor1,vprg_valor2)
-    elif vprg_menu == '2':
-        fprg_subtrai(vprg_valor1,vprg_valor2)
-    elif vprg_menu == '3':
-        fprg_multiplica(vprg_valor1,vprg_valor2)
-    elif vprg_menu == '4':
-        fprg_divisao(vprg_valor1,vprg_valor2)
-    elif vprg_menu == '5':
-        print("Você saiu do programa!")
-        break
-    else:
-        print("Opção inválida!")
+#     if vprg_menu == '1':
+#         fprg_soma(vprg_valor1,vprg_valor2)
+#     elif vprg_menu == '2':
+#         fprg_subtrai(vprg_valor1,vprg_valor2)
+#     elif vprg_menu == '3':
+#         fprg_multiplica(vprg_valor1,vprg_valor2)
+#     elif vprg_menu == '4':
+#         fprg_divisao(vprg_valor1,vprg_valor2)
+#     elif vprg_menu == '5':
+#         print("Você saiu do programa!")
+#         break
+#     else:
+#         print("Opção inválida!")
     
-    pprg_tlimpa()
+#     pprg_tlimpa()
+
