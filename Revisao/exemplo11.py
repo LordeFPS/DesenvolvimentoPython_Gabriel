@@ -4,8 +4,13 @@ lista_nomes = ['André', 'Agnaldo', 'Jorge', 'Amanda', 'Flavia'
                'Noeli', 'Melissa']
 
 # Mostre na telas os números de 0 a 9
-
+qtd = len(lista_nomes)
+for i in range(10):
+    print(f"{i} - {lista_nomes[i]}")
+    
 # Mostre na tela o número de elementos da sua lista.
+
+
 
 # Mostre na tela os números dos indices da lista,
 # cada número em um linha.
