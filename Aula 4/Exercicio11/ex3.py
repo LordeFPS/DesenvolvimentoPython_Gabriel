@@ -1,0 +1,1 @@
+# 3) Crie 4 funções para as operações matemáticas (+, -, /, *)
