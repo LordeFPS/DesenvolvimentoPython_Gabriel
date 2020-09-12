@@ -1,2 +1,1 @@
-# DesenvolvimentoPython_Gabriel_2020
-Aula1 Python
+# Desenvolvimento_Agil_em_Python_2_2020

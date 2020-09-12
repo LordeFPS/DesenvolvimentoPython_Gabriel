@@ -1,14 +1,16 @@
-# Media >= 7 arovado
-# Media < 7 reprovado
+# Media >= 7 aprovado
+# Media < 7 Reprovado
 
 media = 7
 
 if media >= 7:
-    # identação
-    # este bloco irá executar se a condição
-    # media >= 7 for True (verdadeiro)
-    print("Arpovado")
+    #identação
+    #este bloco irá executar se a condição
+    # media >= 7 for True (verdadeira)
+    print("Aprovado")
+
 else:
-    # irá executar se a media >= 7 for False (falso)
+    # irá executar se media >= 7 for False (falso)
     print("Reprovado")
-print("Oi estou fora do if")
+
+print("Oi eu estou fora do if")

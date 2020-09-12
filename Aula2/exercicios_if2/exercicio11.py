@@ -8,16 +8,3 @@
 # 
 # Se o cliente digitar qualquer outra coisa, deve aparecer a mensagem: "opção invalida!"
 # 
-
-mascunilo = 'M'
-feminino = 'F'
-
-sexo = input("Sexo Masculino(M)/Feminino(F): ").upper()
-
-if sexo == mascunilo:
-    print("Como você está forte? andou malhando?")
-elif sexo == feminino:
-    print("Como você está bonita hoje!")
-else:
-    print("opção invalida!")
-
